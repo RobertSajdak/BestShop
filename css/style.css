@@ -28,4 +28,50 @@ a {
     margin: 0 auto; /* Wyśrodkowanie strony względem ekranu. */
 }
 
+.header {
+    height: 70px; /* Wysokość header. */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); /* Nadanie cieniowania. */
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-family: var(--font-raleway);
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--color-primary);
+}
+
+.nav__container ul {
+    display: flex;
+}
+
+.nav__container li {
+    color: var(--color-grey);
+    font-weight: 700;
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    padding: 28px 32px 22px;
+    border-bottom: 4px solid transparent;
+    letter-spacing: 0.1875rem;
+}
+
+.nav__container li:hover {
+    color: var(--color-black);
+    border-color: var(--color-primary);
+}
+
+.nav__container ul {
+    padding: 0 26px;
+}
+
+/*.nav__container ul:last-child{*/
+/*    padding-right: 0;*/
+/*}*/
+
 
