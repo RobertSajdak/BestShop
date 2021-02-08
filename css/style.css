@@ -1,0 +1,31 @@
+:root {
+    --color-primary: #08a6e4;
+    --color-primary-shadow: rgba(7, 172, 230, 0.16);
+    --color-redish: #fb3b64;
+    --color-green: #55dfb4;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-grey: #a5a5a5;
+    --color-light-grey: #f7f7f7;
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box; /* Własności width i height zawierają dopełnienie i obramowanie, ale nie margines. */
+}
+
+body {
+    font-family: var(--font-open-sans); /* Zmienna jako font dla całego body. */
+}
+
+a {
+    text-decoration: none; /* Usunięcie podkreślenia z linków. */
+}
+
+.container {
+    width: 1352px; /* Szerokość kontenera strony. */
+    margin: 0 auto; /* Wyśrodkowanie strony względem ekranu. */
+}
+
+
