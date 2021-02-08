@@ -9,6 +9,7 @@
     --color-light-grey: #f7f7f7;
     --font-raleway: "Raleway", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
+    --button-radius:30px;
 }
 
 * {
@@ -45,6 +46,7 @@ a {
     font-size: 2rem;
     font-weight: 300;
     color: var(--color-primary);
+    padding-left: 30px;
 }
 
 .nav__container ul {
@@ -74,4 +76,47 @@ a {
 /*    padding-right: 0;*/
 /*}*/
 
+.opening {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.opening .content {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.opening .content h1 {
+    font-family: var(--font-raleway);
+    font-size: 3.0625rem; /* 49px (z projektu) / 16 (bazowa wielkość) = 3.0625 */
+}
+
+.opening .content p {
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+
+.opening img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px 65px;
+    border-radius: var(--button-radius);
+    border: none;
+}
+
+.btn--primary {
+    background-color: var(--color-primary);
+    border-radius: var(--button-radius);
+    box-shadow: 3px 10px 14px var(--color-primary-shadow);
+}
+
+.btn--large {
+    padding: 22px 155px;
+}
