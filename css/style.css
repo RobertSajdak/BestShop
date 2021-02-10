@@ -120,3 +120,81 @@ a {
 .btn--large {
     padding: 22px 155px;
 }
+
+.statistics {
+    margin-top: 100px;
+}
+
+.statistics .stat {
+    max-width: 800px;
+    margin: 100px auto 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistics h2 {
+    font-family: var(--font-raleway);
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+.statSingleContainer {
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-raleway);
+}
+
+.statistics .circle {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+
+.statistics img {
+    position: absolute;
+}
+
+.stat .statSingleContainer:nth-child(1) .circle {
+    background-color: var(--color-redish);
+}
+
+.stat .statSingleContainer:nth-child(1) .circle img {
+    top: 0;
+    left: 45%;
+}
+
+.stat .statSingleContainer:nth-child(2) .circle {
+    background-color: var(--color-primary);
+}
+
+.stat .statSingleContainer:nth-child(2) .eye img {
+    top: 14px;
+    left: 47%;
+}
+
+.stat .statSingleContainer:nth-child(3) .circle {
+    background-color: var(--color-green);
+}
+
+.stat .statSingleContainer:nth-child(3) .catalog img {
+    top: 6px;
+    left: 50%;
+}
+
+.stat .statNumber {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.1875rem;
+    margin-top: 13px;
+}
+
+.stat .statInfo {
+    color: var(--color-grey);
+    margin-top: 19px;
+}
+
