@@ -5,6 +5,8 @@
 ### Co jest zrobione:
 - pierwsza sekcja strony (header),
 - sekcja otwierająca,
+- statystyki,
+- benefity,
 
 
 
@@ -18,8 +20,6 @@
 
 
 ### Do zrobienia:
-- sekcja statystyki,
-- sekcja benefity,
 - sekcja cennik,
 - sekcja kontakt,
 - stopka

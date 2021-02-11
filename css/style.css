@@ -76,6 +76,7 @@ a {
 /*    padding-right: 0;*/
 /*}*/
 
+/* OPENING ====================================================== */
 .opening {
     display: flex;
     flex-direction: column;
@@ -121,6 +122,7 @@ a {
     padding: 22px 155px;
 }
 
+/* STATISTICS ====================================================== */
 .statistics {
     margin-top: 100px;
 }
@@ -198,3 +200,143 @@ a {
     margin-top: 19px;
 }
 
+/* BENEFITS ====================================================== */
+.benefits {
+    padding: 100px 0;
+    background-color: var(--color-light-grey);
+}
+
+.benefitsContainer {
+    padding: 0 100px;
+}
+
+.notebook, .phone {
+    background-color: var(--color-white);
+    border: 1px solid #E8E9ED;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 37px;
+    border-radius: 5px;
+}
+
+.benefits .text {
+    max-width: 415px;
+    margin: 90px 36px;
+}
+
+.benefits .text::after {
+    content: "";
+    width: 332px;
+    height: 4px;
+    background-color: var(--accent-color);
+    display: block;
+    margin-top: 50px;
+}
+
+.benefits .title {
+    font-size: xx-large;
+ }
+
+.benefits .description {
+    margin-top: 30px;
+    line-height: 1.375rem;
+}
+
+.benefits .image {
+    position: relative;
+}
+
+.benefits .image img {
+    position: relative;
+    z-index: 2;
+}
+
+/* BENEFITS Laptop ================================================ */
+.benefits .notebook {
+    --accent-color: var(--color-redish);
+}
+
+.benefits .image {
+    margin-right: 117px;
+    margin-bottom: 38px;
+}
+
+.benefits .notebook .image::before {
+    content: "";
+    width: 180px;
+    height: 180px;
+    background-color: var(--accent-color);
+    display: block;
+    border-radius: 40px;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    transform: rotate(45deg);
+}
+
+.benefits .image img {
+    width: 386px;
+    height: auto;
+}
+
+/* BENEFITS Phone ================================================ */
+.benefits .phone {
+    --accent-color: var(--color-primary);
+    flex-direction: row-reverse;
+    padding: 0 20px 0 70px;
+}
+
+.benefits .phone .image::before {
+    content: "";
+    width: 320px;
+    height: 320px;
+    background-color: var(--accent-color);
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+
+.benefits .image img {
+    width: 426px;
+    height: auto;
+}
+
+.benefits .text {
+    margin: 70px 0;
+}
+
+/* BENEFITS Tube ================================================ */
+
+.benefitsContainer .double {
+    --accent-color: var(--color-green);
+    display: flex;
+}
+.benefitsContainer .double > div {
+    margin-bottom: 0;
+}
+.double .tube {
+    max-width: 620px;
+}
+
+.tube .text {
+    max-width: none;
+    margin: 70px 35px;
+}
+.double .image {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    border: none;
+    margin-left: 60px;
+}
+
+.double .image img {
+    width: 295px;
+    height: auto;
+    margin-top: 55px;
+}
