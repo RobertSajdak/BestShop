@@ -8,7 +8,8 @@
 - statystyki,
 - benefity,
 - sekcja cennik,
-
+- sekcja kontakt,
+- stopka
 
 ### Zastosowane technologie:
 - CSS,
@@ -17,10 +18,3 @@
 
 
 ### Do zrobienia:
-- sekcja kontakt,
-- stopka
-
-
-
-
-
