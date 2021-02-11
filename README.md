@@ -7,8 +7,7 @@
 - sekcja otwierająca,
 - statystyki,
 - benefity,
-
-
+- sekcja cennik,
 
 
 ### Zastosowane technologie:
@@ -17,10 +16,7 @@
 - FLEX
 
 
-
-
 ### Do zrobienia:
-- sekcja cennik,
 - sekcja kontakt,
 - stopka
 
